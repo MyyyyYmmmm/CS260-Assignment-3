@@ -1,6 +1,6 @@
 # CS260-Assignment-3
 
-## Assignment 3 Details (Linked Queue):
+## Details (Linked Queue):
 1. Based on what we know about linked lists, stacks, and queues, design a linked queue (a queue using a linked-list to store the data in the structure)
 
 2. Design, implement, and test a Queue data structure that:
@@ -28,15 +28,15 @@ Bonus if you also create an array based Queue!
 
 
 ## Design of Linked queue:
-![HW3_1](https://user-images.githubusercontent.com/59652655/115338299-6d206b80-a157-11eb-8afd-63fccfa7f394.png)
-
+![HW3 1](https://user-images.githubusercontent.com/59652655/115339880-84ad2380-a15a-11eb-8697-c010c90cd7db.png)
+  
   
 ## Working of linked queue:  
 It has main three operations as follows:  
 
-1.	Enqueue
-2.	Dequeue
-3.	Peek
+1.	**Enqueue**
+2.	**Dequeue**
+3.	**Peek**
 
 
 
@@ -67,13 +67,13 @@ One can run main program to perform operations in any sequence and can amuse by 
 	It will return 1.  
   	
 5.	Deueue()  
-	it will return 1 and will delete it  
+	it will return 1 and will delete it.  
   	
 6.	Peek()  
 	It will return 2.  
   	
 7.	Deueue()  
-	it will return 2 and will delete it  
+	it will return 2 and will delete it.  
   	
 8.	Enque(4)  
 	It will insert 4 at rear.  
@@ -82,10 +82,10 @@ One can run main program to perform operations in any sequence and can amuse by 
 	It will return 3.  
   	
 10.	Deueue()  
-	it will return 3 and will delete it  
+	it will return 3 and will delete it.  
   	
 11.	Deueue()  
-	it will return 4 and will delete it  
+	it will return 4 and will delete it.  
   	
 12.	Peek()  
 	It will show message can’t peek from empty structure.  
