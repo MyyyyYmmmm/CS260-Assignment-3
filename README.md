@@ -1,6 +1,6 @@
 # CS260-Assignment-3
 
-## Details (Linked Queue):
+## Assignment Details (Linked Queue):
 1. Based on what we know about linked lists, stacks, and queues, design a linked queue (a queue using a linked-list to store the data in the structure)
 
 2. Design, implement, and test a Queue data structure that:
@@ -28,7 +28,11 @@ Bonus if you also create an array based Queue!
 
 
 ## Design of Linked queue:
-![HW3 1](https://user-images.githubusercontent.com/59652655/115339880-84ad2380-a15a-11eb-8697-c010c90cd7db.png)
+![HW3_1](https://user-images.githubusercontent.com/59652655/115340400-73b0e200-a15b-11eb-9014-8a52867c8d4f.png)
+  
+  
+## Diagram of linked queue node:    
+![HW3_2](https://user-images.githubusercontent.com/59652655/115340419-7ad7f000-a15b-11eb-915a-6f518fb653ce.png)
   
   
 ## Working of linked queue:  
@@ -40,11 +44,11 @@ It has main three operations as follows:
 
 
 
-	When one enqueue an element to queue, it will check for whether it is first of all element and will handle accordingly as shown in program. As it is dynamic queue, it will assign or allocate dynamic memory to new node.  It will initialize attribute of new node. And it will add that node at the end/ rear of the linked queue. And will update the tail as it is maintaining T in linked queue.    
+	When one **enqueue** an element to queue, it will check for whether it is first of all element and will handle accordingly as shown in program. As it is dynamic queue, it will assign or allocate dynamic memory to new node.  It will initialize attribute of new node. And it will add that node at the end/ rear of the linked queue. And will update the tail as it is maintaining T in linked queue.    
   
-	When one dequeue an element from the linked queue, it will check if queue is not empty. If queue is empty it will show message accordingly. In case queue is not empty it will return element from the front and delete front node from the linked queue. After successful dequeue at the end of operation it free the memory occupied by front node.    
+	When one **dequeue** an element from the linked queue, it will check if queue is not empty. If queue is empty it will show message accordingly. In case queue is not empty it will return element from the front and delete front node from the linked queue. After successful dequeue at the end of operation it free the memory occupied by front node.    
   
-	When one peek the element, it will check for at least one element is there. If there is at least one element it will returns data from the front of linked queue. If no element available in linked queue it will show message accordingly that cannot peek the element from empty queue.
+	When one **peek** the element, it will check for at least one element is there. If there is at least one element it will returns data from the front of linked queue. If no element available in linked queue it will show message accordingly that cannot peek the element from empty queue.
 This working of all the operation can be illustrated in a following topic “Test cases and result for linked queue.
 One can run main program to perform operations in any sequence and can amuse by perfect working of linked queue.     
   
